@@ -1,0 +1,83 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5%;
+   
+    }
+ 
+ 
+ header {
+   background: aqua;
+   width: auto;
+   height: 100px;
+   border-style: ridge;
+   }
+ 
+   main {
+     display:flex;
+     width: auto;
+     height: 600px;
+     display: grid;
+     justify-items: center;
+ 
+     }
+ 
+ 
+     .head {
+         color: white;
+         font-size: 38px;
+         letter-spacing: 2px;
+         text-align: center;
+         text-shadow: 2px 2px black;
+        
+         }
+ 
+         h3{
+             font-size: 20px;
+             font-weight: 600;
+             color: aqua;
+             font-family: sans-serif;
+           }
+ 
+           input[type="text"]{
+             width: 300px;
+             font-weight: 600;padding: 10px 0;
+             text-align: center;
+             border-radius: 5px;
+             border: 2px solid aqua;
+             font-size: 16px;
+           }
+           
+           input[type="text"]::placeholder{
+             font-size: 20px;
+             color: aqua;
+           }
+ 
+           button{
+             width: 160px;
+             
+             border-radius: 5px;
+             background-color: rgb(0, 187, 187);
+             color: #ffffff;
+             border: none;
+             font-size: 12px;
+             margin-bottom: 10px;
+             outline: none;
+           }
+ 
+           .display{
+             box-shadow: 0 0 20px rgba(0,139,253,0.25);
+             min-width: 200px;
+             padding: 10px;
+             text-align: center;
+           }
+           
+           p{
+             font-weight: 200;
+           }
+ 
+           #message1{
+             margin-top: 30px;
+             font-size: 20px;
+             color: aqua;
+           }
